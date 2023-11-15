@@ -14,7 +14,7 @@ pipeline{
                 sh "mvn clean package"
             }
         }
-        #githubwebhook demo
+        #githubwebhookdemo
         stage("Ansible Deploy"){
             steps{
                script{
